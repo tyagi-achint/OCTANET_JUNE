@@ -1,8 +1,14 @@
 body {
-  background-image: url(sun.png);
+  background-image: url(images/sun.png);
   margin: 0;
   border: 0;
   padding: 3mm 7mm;
+}
+/* a:hover {
+  color: black !important;
+} */
+a:hover ~ hr {
+  border-top: 2px solid red !important;
 }
 /* -----------------------------------------------NAVBAR */
 nav {
@@ -26,6 +32,7 @@ nav button {
   border: 0;
   border-radius: 40px;
   margin-left: 10px;
+  background-color: #d8c4b6;
 }
 nav button a {
   padding: auto;
@@ -55,6 +62,8 @@ div.firstCont button {
   padding: 6px;
   width: 120px;
   height: 120px;
+  background-color: #d8c4b6;
+  border: 0;
 }
 div.firstCont button h6 {
   margin: 0;
@@ -92,7 +101,7 @@ div.SecondCont p {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: red;
+  background-color: #d8c4b6;
 
   padding: 1px;
   border-radius: 40px;
