@@ -4,3 +4,49 @@ body {
   border: 0;
   padding: 3mm 7mm;
 }
+/* -----------------------------------------------NAVBAR */
+nav {
+  font-size: 24px;
+  /* background-color: aqua; */
+}
+nav a {
+  margin: 0 16px;
+  text-decoration: none !important;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+nav #homepage {
+  font-size: 45px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+}
+nav button {
+  border: 0;
+  border-radius: 40px;
+  margin-left: 10px;
+}
+nav button a {
+  padding: auto;
+}
+
+hr {
+  margin: 3px auto !important;
+  width: 90%;
+  border-radius: 10px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+/* -----------------------------------First CONTAINER  */
+div.firstCont .row {
+  text-align: center;
+  padding: 10px 0;
+}
+div.firstCont img {
+  width: inherit;
+  height: inherit;
+}
+div.firstCont img.yoga3img {
+  height: 70%;
+  width: 65%;
+}
