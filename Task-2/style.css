@@ -1,0 +1,95 @@
+.mainDiv {
+  width: 100%;
+  padding: 10px;
+  height: 100vh;
+  background-color: red;
+}
+.row {
+  margin: 0 !important;
+}
+
+.container {
+  padding: 5px;
+  max-width: 40% !important;
+  margin: 80px auto 20px;
+
+  background-color: aqua;
+}
+h3 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+/* .listClick {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  margin-right: 5px;
+  appearance: none;
+  cursor: pointer;
+  background: var(--checkbox-color);
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  border-radius: 50%;
+
+  &:checked {
+    --checkbox-color: black;
+    border: 3px solid red;
+  }
+}
+
+.material-symbols-outlined {
+  position: relative;
+  bottom: 2px;
+  right: 5px;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.button {
+  border: 5px solid black;
+  border-radius: 50% !important;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.buttonClick {
+  border-color: red;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+} */
+ul li {
+  list-style: none;
+  user-select: none;
+  position: relative;
+  padding: 12px 8px 12px 50px;
+  cursor: pointer;
+}
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url(Images/uncheck.png);
+  background-size: cover;
+  background-position: center;
+  top: 12 px;
+  left: 6px;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  background-image: url(Images/check.png);
+}
