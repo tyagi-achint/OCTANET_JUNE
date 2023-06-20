@@ -9,33 +9,36 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILLc,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <title>ToDO List</title>
 </head>
 
+
 <body>
     <div class="mainDiv">
         <div class="row">
-            <div class="container">
-                <h1>hello</h1>
+            <div class="container col">
+                <h3> <img src="Images/to-do-list.png" width="80px"> To Do </h3>
+                <div id="formDiv">
+                    <form onsubmit="addTask()">
+                        <input type="text" id="todo-input" placeholder="Add a task">
+                        <button type="submit">Add</button>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="container col">
-                <h3>Tasks</h3>
-                <ul>
-                    <li class="checked">Task 1</li>
-
-                    <li>Task 1</li>
+            <div id="ongoingTask" class="container col">
+                <p>Ongoing Tasks</p>
+                <ul id="ongoingTaskUL">
 
                 </ul>
             </div>
-            <div class="container col">
-                <h3>Tasks</h3>
-                <ul>
-                    <li>Task 1</li>
-                    <li>Task 1</li>
+            <div id="finishedTask" class="container col">
+                <p>Finished Tasks</p>
+                <ul id="finishedTaskUL">
+
                 </ul>
             </div>
 
