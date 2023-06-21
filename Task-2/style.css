@@ -139,6 +139,7 @@ span {
   border: 5px solid #a7ecde;
   font-size: larger;
   box-shadow: 0px -1px 19px #99dbf5;
+  outline:none;
 }
 
 #formDiv button:hover {
